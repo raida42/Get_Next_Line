@@ -2,7 +2,7 @@
 This project is to make you code a function that returns a line ending with a newline, read from a file descriptor.
 
 ## Compilation
-Your program must compile with the flag -D BUFFER_SIZE=xx. which will be used as the buffer size for the read calls in your get_next_line.
+Your program must compile with the flag -D **BUFFER_SIZE=xx**. which will be used as the buffer size for the read calls in your get_next_line.
 ```
 gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c main.c
 ```
