@@ -29,7 +29,6 @@ gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.
 | -1| An error happened    |
 
 ## Test
-Use this get_next_line tester
 ### Usage
 **Author:** Tripouille
 ```
