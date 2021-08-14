@@ -12,6 +12,8 @@ gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.
 
 ## Test
 
+### Return Value
+
 | Value | Description |
 ----|---- 
 | 1 | A line has been read |
