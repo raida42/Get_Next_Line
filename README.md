@@ -20,8 +20,6 @@ gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.
 ./a.out
 ```
 
-## Test
-
 ### Return Value
 
 | Value | Description |
@@ -29,3 +27,11 @@ gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.
 | 1 | A line has been read |
 | 0 | EOF has been reached |
 | -1| An error happened    |
+
+## Test
+Use this get_next_line tester
+### Usage
+**Author:** Tripouille
+```
+git clone https://github.com/Tripouille/gnlTester.git && cd gnlTester && make m
+```
